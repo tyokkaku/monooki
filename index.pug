@@ -2,18 +2,20 @@ doctype html
 html(lang="ja")
   head
     meta(charset="utf-8")
+    link(rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css")
     style(src="css/style.css")
     title 直角
   body
     .self-introduction
       h1 直角
-      p 個人で作ったWebアプリケーションを公開しています。
+      button.ui.button Follow
     .productions
-      
-
     section#profile
       h1 直角のプロフィール
       p Webアプリの個人開発をします。文章系のWebアプリに興味があります。
     section#links
       ul
         li scrapbox
+  block content
+    script(src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous")
+    script(src="semantic/dist/semantic.min.js")

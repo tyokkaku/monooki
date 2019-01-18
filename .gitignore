@@ -3,3 +3,5 @@ exclude.text
 .DS_Store	
 .vscode
 node_modules
+
+semantic/
