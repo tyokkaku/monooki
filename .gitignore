@@ -4,4 +4,5 @@ exclude.text
 .vscode
 node_modules
 
-semantic/
+semantic/dist/
+semantic/tasks/
