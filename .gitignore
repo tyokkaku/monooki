@@ -1,3 +1,4 @@
 *.log
 exclude.text
 .DS_Store	
+.vscode
