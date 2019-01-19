@@ -2,24 +2,60 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <style src="css/style.css"></style>
+    <link rel="stylesheet" href="css/style.css">
     <title>直角</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
   </head>
   <body>
-    <div class="self-introduction">
-      <h1>直角</h1><a class="waves-effect waves-light btn">button</a>
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <ul class="left hide-on-med-and-down" id="nav-mobile"></ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="page-introduction">
+        <div class="icon"><img class="responsive-img" src="images/icon.jpg" alt="" width="250"></div>
+        <h3>tyokkaku</h3>
+        <p>このページには、個人で作ったWebアプリケーションを公開しています。</p>
+      </div>
+      <div class="self-introduction">
+        <section id="productions">
+          <h4><i class="material-icons md-40">web</i>制作物</h4>
+          <div class="center-cols flex">
+            <div class="col s12 m7">
+              <div class="card hoverable">
+                <div class="card-image"><img src="images/nestnovel_header3.jpg"></div>
+                <div class="card-content">
+                  <h5>ネストノベルズ</h5>
+                  <p>
+                    ・少し変わった小説投稿サイトです。入れ子のような構造の小説を書くことができます。
+                    ・ネストとは、入れ子構造のことで、マトリョーシカ人形がそうです。
+                  </p>
+                </div>
+                <div class="card-action"><a href="https://vast-coast-59259.herokuapp.com">サービスへ</a></div>
+              </div>
+            </div>
+            <div class="col s12 m7">
+              <div class="card hoverable">
+                <div class="card-image"><img src="images/storyTeller_header.jpg"></div>
+                <div class="card-content">
+                  <h5>StoryTeller</h5>
+                  <p>・一行小説投稿サイトです。初めて作ったWebアプリです。</p>
+                  <p>
+                     ・一人でも、複数人でも、小説を投稿していくことができます。</p>
+                </div>
+                <div class="card-action"><a>公開停止</a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-    <div class="productions"></div>
-    <section id="profile">
-      <h1>直角のプロフィール</h1>
-      <p>Webアプリの個人開発をします。文章系のWebアプリに興味があります。</p>
-    </section>
-    <section id="links">
-      <ul>
-        <li>scrapbox</li>
-      </ul>
-    </section>
+    <footer></footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>

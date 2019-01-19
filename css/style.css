@@ -1,0 +1,77 @@
+header {
+  padding-bottom: 2%;
+}
+
+.container {
+  padding-bottom: 8%;
+}
+
+footer {
+  height: 100px;
+  background-color: #f5f5f5;
+}
+
+.material-icons.md-40 { 
+  font-size: 40px; 
+  vertical-align: text-top;
+}
+
+.center-cols > .col {
+  float:none; /* disable the float */
+  display: inline-block; /* make blocks inline-block */
+  text-align: initial; /* restore text-align to default */
+  margin-left: 1%;
+}
+
+.center-cols.flex {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.card {
+  width: 350px;
+}
+
+.card-image img{
+  height: 170px;
+}
+
+.nav-wrapper {
+  background-color: #222222
+  !important;
+  font-size: 14px;
+}
+
+.icon {
+  text-align: center;
+}
+
+.page-introduction h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.page-introduction p {
+  text-align: center;
+}
+
+.page-introduction {
+  padding-bottom: 4%;
+}
+
+/* .self-introduction {
+  padding-bottom: 8%;
+} */
+
+.self-introduction h4{
+  text-align: center;
+  font-weight: bold;
+}
+
+.self-introduction ul{
+  text-align: center;
+}
+
+.self-introduction .card-content h5{
+  font-weight: bold;
+}
